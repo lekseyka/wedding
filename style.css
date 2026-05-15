@@ -7,22 +7,6 @@
 }
 
 @font-face {
-    font-family: 'Jeleyka';
-    src: url('/font/RUSJellyka.ttf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Antiqua';
-    src: url('/font/Antiqua.ttf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Antiquadef';
     src: url('/font/Antiquadef.ttf') format('opentype');
     font-weight: normal;
