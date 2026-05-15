@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Caravan';
+    src: url('/font/caravan.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeleyka';
+    src: url('/font/RUSJellyka.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Antiqua';
+    src: url('/font/Antiqua.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Antiquadef';
+    src: url('/font/Antiquadef.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.antiquadef {
+    font-family: Antiquadef !important;
+    font-size: 30px;
+}
+
+.antiquadef-text {
+    font-family: Antiquadef;
+    font-size: 16px;
+}
+
+.sm-container .sm-cormorantRegular-70-30 {
+    font-family: Caravan;
+    font-size: 100px;
+}
+
+.sm-container .sm-cormorantRegular-100-30,
+.sm-questionnaire .sm-cormorantRegular-70-30,
+.sm-container .sm-cormorantRegular-100-50 {
+    font-family: Caravan;
+    font-size: 130px;
+}
+
+.sm-container .sm-footer__shell-love p.sm-cormorantRegular-100-30,
+.sm-container .sm-cormorantRegular-70-40 {
+    font-family: Caravan;
+    font-size: 90px;
+}
+
+.sm-container .text-paint-background-after.text-paint-background-before:before,
+.sm-container .text-paint-background-after.text-paint-background-before:after {
+    top: unset;
+    bottom: 25%;
+}
+
+.active-date {
+    position: relative;
+    color: #fff !important;
+}
+
+.weekend {
+    color: #fff !important;
+    font-size: 18px !important;
+}
+
+.active-date:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 38px;
+    background-image: url(images/day-active.webp);
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.sm-moment__wrapper-photo_img {
+    object-position: top !important;
+}
+
+.sm-wishes {
+    min-height: unset!important;
+}
+
+.sm-form__wrapper {
+    justify-content: center !important;
+}
+
+.form-control-text {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .top-cantainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-cantainer > div {
+        margin: auto;
+    }
+
+    .top-cantainer > div:last-child {
+        margin-top: 40px
+    }
+
+    .top-cantainer img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .sm-moment__wrapper-photo {
+        width: 340px !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .sm-timing__items {
+        padding-left: 100px;
+        margin-top: 60px !important;
+    }
+
+    .sm-line {
+        left: 190px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .sm-contact__shell {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 358px;
+    }
+}
+
+
