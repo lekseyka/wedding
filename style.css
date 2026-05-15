@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Caravan';
-    src: url('/font/caravan.otf') format('opentype');
+    src: url('./font/Caravan.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Antiquadef';
-    src: url('/font/Antiquadef.ttf') format('opentype');
+    src: url('./font/Antiquadef.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
